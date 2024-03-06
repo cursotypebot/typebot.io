@@ -29,17 +29,17 @@ export const MagicLinkEmail = ({ url }: Props) => (
       </MjmlSection>
       <MjmlSection padding="0 24px" cssClass="smooth">
         <MjmlColumn>
-          <Text>Here is your magic link 👇</Text>
+          <Text>Aqui está o seu link mágico 👇</Text>
           <MjmlSpacer />
           <Button link={url} align="center">
-            Click here to sign in
+            Clique aqui para entrar
           </Button>
           <Text>
-            If you didn&apos;t request this, please ignore this email.
+            Se você não solicitou isso, ignore este e-mail.
           </Text>
           <Text>
             Best,
-            <br />- Typebot Team.
+            <br />- Curso Typebot.
           </Text>
         </MjmlColumn>
       </MjmlSection>
